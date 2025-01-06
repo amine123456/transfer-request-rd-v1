@@ -7,7 +7,7 @@ const apicache = require('apicache');
 // Env vars
 const API_BASE_URL = process.env.API_BASE_URL; // e.g., 'https://pulse.centrakey.com/api'
 const API_KEY_NAME = process.env.API_KEY_NAME; // e.g., 'token'
-const API_KEY_VALUE = process.env.API_KEY_VALUE; // Your actual API key
+const API_KEY_VALUE = process.env.API_ACCOUNTING_KEY; // Your actual API key
 
 // Init cache (optional)
 let cache = apicache.middleware;
